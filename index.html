@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxe Interio</title>
-</head>
-<body>
-    <section>
-        <video src=""></video>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Interiors</title>
+    <link rel="stylesheet" href="./style_sheets/index.css">
+    <script src="./index.js" defer type="module" ></script>
+  </head>
+  <body>
+    <section class="container">
+      <section id="login" class="forms">
+        <h2>Login</h2>
+        <form action="">
+          <input
+            class="inputs"
+            id="username_l"
+            type="email"
+            placeholder="Usermail"
+            required
+          />
+          <input
+            class="inputs"
+            id="password_l"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <section class="buttons">
+            <input class="btn" id="btn_login" type="submit" value="Login" />
+            <p class="btn" id="btn_guest">guest mode</p>
+          </section>
+        </form>
+        <p>Don't have an account?<button id="dhac">Sign up</button></p>
+      </section>
+      <!-- login completed -->
+      <section id="signup" class="forms">
+        <h2>Sign Up</h2>
+        <form action="">
+          <input class="inputs" type="email" placeholder="Email" required />
+          <input
+            class="inputs"
+            type="password"
+            placeholder="Set Password"
+            required
+          />
+          <input
+            class="inputs"
+            type="password"
+            placeholder="Confirm Password"
+            required
+          />
+          <section class="buttons">
+            <input
+              id="btn_signin"
+              class="btn"
+              type="submit"
+              value="sign up"
+            /><br />
+          </section>
+        </form>
+        <p>Already have account?<button id="ahc">Log in</button></p>
+      </section>
     </section>
-</body>
+
+    <!-- html content completed -->
+
+  </body>
 </html>
