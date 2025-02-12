@@ -53,6 +53,8 @@ login.addEventListener("submit", (e) => {
     });
 });
 
-btn_guest.addEventListener("click", () => {
+btn_guest.addEventListener("click", (f) => {
+  console.log(f);
+  alert("Entered by Guest Mode");
   location.replace("./home.html");
 });
