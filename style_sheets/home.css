@@ -143,7 +143,8 @@ svg {
   justify-content: space-evenly;
   column-gap: 2rem;
   row-gap: 2rem;
-  margin: 2rem;
+  margin: 3rem;
+  padding: 2rem;
 }
 .sec4_container_box img {
   height: 50vh;
@@ -242,6 +243,34 @@ svg {
     border: 1px solid gray;
     transform: scale(1.1,1);
   }
+  .sec7_content
+  {
+    display: flex;
+    column-gap: 3rem;
+    margin: 3rem;
+  }
+  .sec7_div
+  {
+    width: 600px;
+    align-content: center;
+  }
+  .sec7_div img
+  {
+    width:780px;
+    height: 60vh;
+  }
+  .section7 h3
+  {
+    margin-left: 2rem;
+    font-weight: bold;
+    color: rgb(30, 30, 30);
+  }
+  .section7 a
+  {
+    text-decoration: none;
+    color: #b78f54;
+    font-weight: 600;
+  }
 
 
 
@@ -295,7 +324,7 @@ svg {
     display: none;
   }
   .section2 img {
-    width: 95vw;
+    /* width: 95vw; */
     height: 45vh;
   }
   .carousel {
@@ -305,6 +334,10 @@ svg {
     margin-top: 2rem;
   }
 }
+.sec4_container
+  {
+    margin: auto;
+  }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .sec4_container_box img {
@@ -321,6 +354,10 @@ svg {
     border: 1px solid rgb(195, 194, 194);
     border-radius: 1vh;
     align-items: center;
+  }
+  .sec4_container
+  {
+    margin: auto;
   }
 }
 @media screen and (max-width: 768px) {
